@@ -1,0 +1,51 @@
+body {
+    background: #4b2e83;
+    color:#85754d;
+}
+h1 {
+    text-align: center;
+}
+.hidden {
+    display:none;
+}
+
+#groupsFlex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+#randomGroups {
+    width:100%;
+    height:20vh;
+    margin: 0 auto;
+    font-size:72px;
+}
+
+button {
+    background-color:#85754d;
+    color: #4b2e83;   
+}
+
+.groupDiv {
+    border:1px solid black;
+    background-color:#85754d;
+    color: #4b2e83;
+    border-radius: 3%;
+    width:25%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px; 
+    font-size:1.5em;  
+}
+
+.spicy {
+    color:#ff7675
+}
+
+.medium {
+    color:#f1c40f
+}
+
+.mild {
+    color:#2ecc71
+}
